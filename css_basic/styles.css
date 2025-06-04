@@ -22,3 +22,11 @@ aside{
 article, aside{
     overflow-y: auto;
 }
+
+article h1{
+    color: brown;
+}
+
+article table, article th, article td {
+    border: 1px solid black;
+}
