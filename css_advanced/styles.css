@@ -10,6 +10,7 @@
     --purple: #c271ff;
     --white: #ffffff;
     --darkblue: #071629;
+    --grey: #d8d8d8;
 
     /* Font Weights */ 
     --semibold: 600;
@@ -113,7 +114,7 @@ nav ul li a{
     text-align: center;
 }
 
-.pros span.highlighted{
+span.highlighted{
     color: var(--purple);
     font-weight: var(--bold);
 }
@@ -190,4 +191,107 @@ nav ul li a{
 .quote-txt p{
     font-style: italic;
     font-weight: var(--regular);
+}
+
+/* Tutorial Section */
+
+.tutorial-section{
+    padding: 87px 106px;
+    background-color: var(--white);
+}
+
+.tutorial-section h2{
+    text-align: center;
+    font-weight: var(--light);
+    font-size: 32px;
+    margin-bottom: 75px;
+}
+
+.tutorial-list-wrapper{
+    display: flex;
+    gap: 30px;
+    padding-left: 58px;
+    padding-right: 58px;
+}
+
+.tutorial-box .featured-img{
+    width: 255px;
+    height: 154px;
+}
+
+.tutorial-desc{
+    padding-top: 18px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 15px;
+}
+
+.tutorial-desc h3{
+    font-weight: var(--bold);
+    font-size: 16px;
+    margin-bottom: 7.6px;
+}
+
+.tutorial-desc p{
+    font-weight: var(--regular);
+    font-size: 14px;
+    color: rgba(7, 22, 41, 0.5016);
+    line-height: 24px;
+}
+
+.author-box{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding-top: 13.4px;
+    padding-bottom: 14px;
+}
+
+.author-box img{
+    width: 30px;
+    height: 30px;
+}
+
+.author-box h4{
+    color: var(--purple);
+    font-size: 14px;
+    font-weight: var(--semibold);
+    line-height: 27px;
+}
+
+.tutorial-meta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tutorial-meta p{
+    color: var(--purple);
+    font-weight: var(--semibold);
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.rating-box{
+    display: flex;
+    gap: 8px;
+}
+
+.rating-box i{
+    font-size: 15px;
+}
+
+.rating-box i.rated{
+    color: var(--purple);
+}
+
+.rating-box i.unrated{
+    color: var(--grey);
+}
+
+.play-icon{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    margin: 45px 95px;
 }
