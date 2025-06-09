@@ -92,7 +92,7 @@ nav ul li a{
     margin-bottom: 38px;
 }
 
-.hero button{
+.hero button, .free-membership button{
     border-radius: 22px;
     background-color: var(--purple);
     color: var(--white);
@@ -294,4 +294,52 @@ span.highlighted{
     display: flex;
     position: absolute;
     margin: 45px 95px;
+}
+
+
+/* Free Membership Section */
+.free-membership{
+    padding: 70px 164px;
+    background-color: var(--darkblue);
+    color: var(--white);
+}
+
+.free-membership h2{
+    font-size: 32px;
+    font-weight: var(--light);
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.membership-wrapper{
+    display: flex;
+    justify-items: center;
+    gap: 29px;
+}
+
+.membership-info{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 85px;
+}
+
+.membership-info h3{
+    font-size: 18px;
+    font-weight: var(--semibold);
+    line-height: 26px;
+    margin-bottom: 13px;
+    margin-top: 26.62px;
+}
+
+.membership-info p{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: var(--regular);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.membership-btn{
+    display: flex;
+    justify-content: center;
 }
