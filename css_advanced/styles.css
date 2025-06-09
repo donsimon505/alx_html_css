@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Source Sans 3';
+
+}
+
+body{
+    overflow-x: hidden;
 }
 
 :root{
@@ -342,4 +347,37 @@ span.highlighted{
 .membership-btn{
     display: flex;
     justify-content: center;
+}
+
+/* FAQ Section */
+
+.faq{
+    width: auto;
+    padding: 84px 249px 0px 249px;
+}
+
+.faq h2{
+    font-size: 60px;
+    font-weight: var(--light);
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.faq-wrapper{
+    display: flex;
+    gap: 220px;
+}
+
+.faq-title{
+    font-size: 16px;
+    font-weight: var(--bold);
+    margin-bottom: 30px;
+}
+
+.faq-soln{
+    font-size: 14px;
+    font-weight: var(--regular);
+    line-height: 24px;
+    padding-bottom: 74px;
+    color: rgba(7, 22, 41, 0.5016);
 }
