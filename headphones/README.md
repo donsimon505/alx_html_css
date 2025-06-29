@@ -6,7 +6,7 @@
 
 ## 📖 Overview
 
-**Headphones Websie** is an ALX project showing the implementation of responsive design
+**Headphones Website** is an ALX project showing the implementation of responsive design
 
 ### ✨ Features
 
