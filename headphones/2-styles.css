@@ -170,3 +170,110 @@ nav ul li a{
     padding-left: 25px;
     padding-right: 25px;
 }
+
+/* Our Results */
+
+.our-results{
+    display: flex;
+    flex-direction: column;
+    padding: 110px 200px;
+    background: url("assets/headphones_hero_2.jpg") no-repeat center center;
+    background-size: cover;
+    color: var(--white);
+    gap: 56px;
+}
+
+.our-results h2{
+    font-size: 32px;
+    font-weight: var(--semibold);
+    text-align: center;
+}
+
+.or-title-box{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 182px;
+    text-align: center;
+    gap: 42px;
+}
+
+.or-wrapper{
+    display: flex;
+    justify-items: center;
+    align-self: center;
+    gap: 76px;
+}
+
+.or-info{
+    display: flex;
+    flex-direction: column;
+    background: url("assets/pentagone.png") no-repeat center center;
+    background-size: contain;
+    padding: 70px 40px 50px 40px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 18px;
+    gap: 5px;
+}
+
+
+.or-info h3{
+    font-size: 46px;
+    font-weight: var(--bold);
+    line-height: 26px;
+    margin-bottom: 13px;
+    margin-top: 26.62px;
+}
+
+.or-info p{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: var(--regular);
+}
+
+
+/* Footer */
+
+footer{
+    padding: 95px 165px 39px 165px;
+    background-color: var(--darkblue);
+    color: var(--white);
+}
+
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.footer-row img{
+    width: 169px;
+    height: 30px;
+}
+
+.footer-row .social-icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-row .social-icons i{
+    font-size: 15px;
+    color: var(--darkblue);
+}
+
+.footer-row .social-icons i.rounded-edge{
+    border-radius: 100px;
+    padding: 10px;
+    background-color: var(--white);
+}
+
+.footer-wrapper p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.352);
+}
