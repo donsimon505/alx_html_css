@@ -1,0 +1,252 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans 3';
+
+}
+
+body{
+    overflow-x: hidden;
+}
+
+:root{
+    /* Colors */
+    --red: #FF6565;
+    --white: #ffffff;
+    --darkblue: #071629;
+    --grey: #d8d8d8;
+
+    /* Font Weights */ 
+    --semibold: 600;
+    --bold: 700;
+    --black: 900;
+    --regular: 400;
+    --light: 300;
+}
+
+/* Navigation */
+
+nav{
+    width: 100%;
+    display: flex;
+    padding: 32px 171px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+nav img{
+    width: 167px;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 41px;
+}
+
+nav ul li{
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: var(--bold);
+    font-size: 12px;
+}
+
+/* Hero */
+
+.hero{
+    padding: 115px 382px;
+    background: url("assets/headphones_hero_1.jpg") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+}
+
+.hero-txt-box{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    text-align: center;
+    color: var(--white);
+    gap: 65px;
+}
+
+.hero-txt-box h1, .hero-txt-box h2{
+    font-weight: var(--bold);
+    line-height: 1em;
+}
+
+.hero-txt-box h1{
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.hero-txt-box h2, .hero-txt-box p{
+    font-size: 16px;
+}
+
+.hero-txt-box p{
+    line-height: 26px;
+}
+
+.hero-title-box{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.hero button, .free-membership button{
+    border-radius: 22px;
+    background-color: var(--red);
+    color: var(--white);
+    padding: 13px 31px;
+    font-size: 14px;
+    font-weight: var(--semibold);
+    border: none;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* What We Do */
+
+.what-we-do{
+    display: flex;
+    flex-direction: column;
+    padding: 110px 200px;
+    background-color: var(--white);
+    color: var(--darkblue);
+    gap: 97px;
+}
+
+.what-we-do h2{
+    font-size: 32px;
+    font-weight: var(--semibold);
+    text-align: center;
+}
+
+.wwd-title-box{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 182px;
+    text-align: center;
+    gap: 42px;
+}
+
+.wwd-wrapper{
+    display: flex;
+    justify-items: center;
+    gap: 29px;
+}
+
+.wwd-info{
+    text-align: center;
+    align-items: center;
+}
+
+.wwd-info span::before{
+    font-size: 94px;
+    color: var(--red);
+}
+
+.wwd-info h3{
+    font-size: 18px;
+    font-weight: var(--semibold);
+    line-height: 26px;
+    margin-bottom: 13px;
+    margin-top: 26.62px;
+}
+
+.wwd-info p{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: var(--regular);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* FAQ Section */
+
+.faq{
+    width: auto;
+    padding: 84px 249px 0px 249px;
+}
+
+.faq h2{
+    font-size: 60px;
+    font-weight: var(--light);
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.faq-wrapper{
+    display: flex;
+    gap: 220px;
+}
+
+.faq-title{
+    font-size: 16px;
+    font-weight: var(--bold);
+    margin-bottom: 30px;
+}
+
+.faq-soln{
+    font-size: 14px;
+    font-weight: var(--regular);
+    line-height: 24px;
+    padding-bottom: 74px;
+    color: rgba(7, 22, 41, 0.5016);
+}
+
+
+/* Footer */
+
+footer{
+    padding: 95px 165px 39px 165px;
+    background-color: var(--darkblue);
+    color: var(--white);
+}
+
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.footer-row img{
+    width: 169px;
+    height: 30px;
+}
+
+.footer-row .social-icons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.footer-row .social-icons i{
+    font-size: 15px;
+    color: var(--darkblue);
+}
+
+.footer-row .social-icons i.rounded-edge{
+    border-radius: 100px;
+    padding: 10px;
+    background-color: var(--white);
+}
+
+.footer-wrapper p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.352);
+}
