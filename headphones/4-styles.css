@@ -16,7 +16,6 @@ body{
     --white: #ffffff;
     --darkblue: #071629;
     --grey: #d8d8d8;
-    --grey-for-input: rgba(7,22,41,0.1745);
 
     /* Font Weights */ 
     --semibold: 600;
@@ -59,6 +58,12 @@ nav ul li a{
     color: var(--white);
     font-weight: var(--bold);
     font-size: 12px;
+}
+
+@media only screen and (max-width: 480px) {
+    nav{
+        display: none;
+    }
 }
 
 /* Hero */
@@ -104,7 +109,7 @@ nav ul li a{
     gap: 40px;
 }
 
-.hero button, .free-membership button, .contact button{
+.hero-btn button, .free-membership button{
     border-radius: 22px;
     background-color: var(--red);
     color: var(--white);
@@ -112,6 +117,12 @@ nav ul li a{
     font-size: 14px;
     font-weight: var(--semibold);
     border: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .hero{
+        padding: 327px 21px 106px 21px;
+    }
 }
 
 /* What We Do */
@@ -169,6 +180,23 @@ nav ul li a{
     font-weight: var(--regular);
     padding-left: 25px;
     padding-right: 25px;
+}
+
+@media only screen and (max-width: 480px) {
+    .what-we-do{
+        padding: 110px 25px;
+    }
+
+    .wwd-title-box{
+        padding: 0px;
+    }
+
+    .wwd-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        gap: 96px;
+    }
 }
 
 /* Our Results */
@@ -231,6 +259,23 @@ nav ul li a{
     font-weight: var(--regular);
 }
 
+@media only screen and (max-width: 480px) {
+    .our-results{
+        padding: 110px 36px;
+    }
+
+    .or-title-box{
+        padding: 0px;
+    }
+
+    .or-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        gap: 22px;
+    }
+}
+
 /* Contact */
 .contact{
     display: flex;
@@ -279,6 +324,16 @@ nav ul li a{
     margin-top: 15px;
 }
 
+@media only screen and (max-width: 480px){
+    .contact{
+        padding: 110px 20px;
+    }
+
+    .c-title-box{
+        padding: 0px;
+    }
+}
+
 
 /* Footer */
 
@@ -317,4 +372,25 @@ footer{
 .footer-wrapper p{
     text-align: center;
     color: rgba(255, 255, 255, 0.352);
+}
+
+@media only screen and (max-width: 480px){
+    footer{
+        padding: 48px 106px;
+    }
+
+    .footer-row{
+        flex-direction: column;
+        gap: 45px;
+        margin-bottom: 0px;
+    }
+
+    .footer-wrapper{
+        align-items: center;
+        gap: 45px;
+    }
+
+    .footer-row .social-icons{
+        justify-content: center;
+    }
 }

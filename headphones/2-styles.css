@@ -60,6 +60,12 @@ nav ul li a{
     font-size: 12px;
 }
 
+@media only screen and (max-width: 480px) {
+    nav{
+        display: none;
+    }
+}
+
 /* Hero */
 
 .hero{
@@ -112,6 +118,12 @@ nav ul li a{
     font-weight: var(--semibold);
     border: none;
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 480px) {
+    .hero{
+        padding: 327px 21px 106px 21px;
+    }
 }
 
 /* What We Do */
@@ -169,6 +181,23 @@ nav ul li a{
     font-weight: var(--regular);
     padding-left: 25px;
     padding-right: 25px;
+}
+
+@media only screen and (max-width: 480px) {
+    .what-we-do{
+        padding: 110px 25px;
+    }
+
+    .wwd-title-box{
+        padding: 0px;
+    }
+
+    .wwd-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        gap: 96px;
+    }
 }
 
 /* Our Results */
@@ -229,4 +258,21 @@ nav ul li a{
     font-size: 14px;
     line-height: 26px;
     font-weight: var(--regular);
+}
+
+@media only screen and (max-width: 480px) {
+    .our-results{
+        padding: 110px 36px;
+    }
+
+    .or-title-box{
+        padding: 0px;
+    }
+
+    .or-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        gap: 22px;
+    }
 }
