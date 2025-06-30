@@ -16,6 +16,7 @@ body{
     --white: #ffffff;
     --darkblue: #071629;
     --grey: #d8d8d8;
+    --grey-for-input: rgba(7,22,41,0.1745);
 
     /* Font Weights */ 
     --semibold: 600;
@@ -103,7 +104,7 @@ nav ul li a{
     gap: 40px;
 }
 
-.hero button, .free-membership button{
+.hero button, .free-membership button, .contact button{
     border-radius: 22px;
     background-color: var(--red);
     color: var(--white);
@@ -111,7 +112,6 @@ nav ul li a{
     font-size: 14px;
     font-weight: var(--semibold);
     border: none;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
 }
 
 /* What We Do */
@@ -230,6 +230,55 @@ nav ul li a{
     line-height: 26px;
     font-weight: var(--regular);
 }
+
+/* Contact */
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 110px 200px;
+    background-color: var(--white);
+    color: var(--darkblue);
+    gap: 56px;
+}
+
+.contact h2{
+    font-size: 32px;
+    font-weight: var(--semibold);
+    text-align: center;
+}
+
+.c-title-box{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 182px;
+    text-align: center;
+    gap: 42px;
+}
+
+.c-wrapper{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.c-wrapper input{
+    border-width: 0px 0px 1px 0px;
+    padding-bottom: 10px;
+    border-color: var(--grey-for-input);
+    width: 335px;
+    height: 29px;
+    color: var(--darkblue);
+    font-size: 14px;
+    font-weight: var(--semibold);
+}
+
+.c-wrapper button{
+    margin-top: 56px;
+}
+
+
 
 
 /* Footer */
